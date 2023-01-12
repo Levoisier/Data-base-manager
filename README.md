@@ -10,16 +10,26 @@
 **Command-line application** designed for administrating a client data base, where you can Create, Update and Delete information using the terminal.
 Also, integrates functionalities of Click and Tabulate Python modules, resulting in a clean graphic interface and easy manipulation.
 
-	Easy Package instalation guide:
-		- Make sure you have Python 3.0+ installed
-		- Download the project files
-		- Open the terminal and head to the project path
-		- Create a virtual enviroment in the project file
-		- Install pv (~$ pip install pv)
-		- Install click (~$ pip install click)
-		- Install tabulate (~$ pip install tabulate)
-		- Run 
+## 📝 Installation guide
+	
+		- Make sure you have Python 3.8+ installed.
+		- Download the project files.
+		- Open the terminal and head to the project path.
+		- Create a virtual enviroment in the project file.
+		- Install pv (~$ pip install pv).
+		- Install click (~$ pip install click).
+		- Install tabulate (~$ pip install tabulate).
+		- Run "~$ pip --editable .".
+		- Now, it's all set.
+		
 
+## 📝 Application guide
+
+- ~$ pv clients --help -> to see the list of commands available .
+- ~$ pv clients create -> to create a new client.
+- ~$ pv clients delete -> to delete a client (run the -list- comand first to see the client ID).
+- ~$ pv clients list -> to see the list of clients. 
+- ~$ pv clients update -> to update a client (run the -list- comand first to see the client ID).
 
 
 
